@@ -5,7 +5,7 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Tourest - Explore the World</title>
+  <title>Travel Buddy - Explore the World</title>
 
   <!-- 
     - favicon
@@ -33,12 +33,11 @@
   <!-- 
     - #HEADER
   -->
-
   <header class="header" data-header>
     <div class="container">
 
       <a href="#">
-        <h1 class="logo">Tourest</h1>
+        <h1 class="logo">Travel Buddy</h1>
       </a>
 
       <button class="nav-toggle-btn" data-nav-toggle-btn aria-label="Toggle Menu">
@@ -76,7 +75,7 @@
 
         </ul>
 
-        <a href="#" class="btn btn-secondary">Booking Now</a>
+        <a href="#" class="btn btn-secondary">My Profile</a>
 
       </nav>
 
@@ -781,11 +780,8 @@
 
       <div class="footer-bottom">
 
-        <a href="#" class="logo">Tourest</a>
+        <a href="#" class="logo">Travel Buddy</a>
 
-        <p class="copyright">
-          &copy; 2022 <a href="#" class="copyright-link">codewithsadee</a>. All Rights Reserved
-        </p>
 
         <ul class="social-list">
 
@@ -839,7 +835,7 @@
   </a>
 
 
-
+  <button id="myButton" onclick="goToBot()"></button>
 
 
   <!-- 
@@ -852,6 +848,14 @@
   -->
   <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
   <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+
+  <script>
+    function goToBot() {
+        var link = "https://mediafiles.botpress.cloud/9cafee5f-64ac-42d1-91ab-36564d1b9803/webchat/bot.html";
+        window.location.href = link;
+    }
+</script>
 
 </body>
 

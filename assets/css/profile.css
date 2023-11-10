@@ -1,0 +1,19 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    background-color: hsl(180, 98%, 31%);
+    display: flex;
+    justify-content: center; 
+}
+.main-card{
+    background-color: whitesmoke;
+    color: hsl(216, 19%, 34%);
+    border-radius: 25px;
+    display: flex;
+   flex-direction: column;
+   padding:20px;
+   margin:50px;
+}
+button{
+    display: inline;
+}
